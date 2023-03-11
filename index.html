@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password flex">
+            <div class="show">###</div>
+            <i class='bx bx-copy-alt'></i>
+        </div>
+        <div class="controls">
+            <div class="length-con flex-bt w100">
+                <p>Charecter Length</p>
+                <div class="length">8</div>
+            </div>
+            <div class="input">
+                <input type="range" min="6" max="32" value="8" class="slider" step="1">
+            </div>
+            
+            <div class="check-area">
+                <div class="check flex">
+                    <i class='upperCase bx bx-check-square'></i>
+                    <p>Include Uppercase Letters</p>
+                </div>
+                <div class="check flex">
+                    <i class='lowerCase bx bx-check-square'></i>
+                    <p>Include lowercase Letters</p>
+                </div>
+                <div class="check flex ">
+                    <i class='numbers bx bx-check-square'></i>
+                    <p>Include Numbers</p>
+                </div>
+                <div class="check flex ">
+                    <i class='symbols bx bx-check-square'></i>
+                    <p>Include Symbols</p>
+                </div>
+            </div>
+            <div class="strength flex-bt">
+                <p>STRENGTH</p>
+                <div class="bulbs">
+                    <i class='bx bx-radio-circle'></i>
+                    <i class='bx bx-radio-circle'></i>
+                    <i class='bx bx-radio-circle'></i>
+                </div>
+            </div>
+            <button class="generate">GENERATE <i class='bx bxs-chevron-right'></i></button>
+        </div>
+    </div>
+    <div class="messege flex">
+        copied successfully
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- <i class='bx bxs-check-square'></i> -->
