@@ -154,3 +154,8 @@ button{
   font-weight: bold;
   visibility: hidden;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    font-size:20px;
+  }
+}
